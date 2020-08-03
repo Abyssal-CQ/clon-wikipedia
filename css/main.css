@@ -250,11 +250,11 @@ main .main-utils {
 }
 
 main .main-utils-description {
-    width: 35%;
+    width: 30%;
     text-align: left;
     font-size: 13px;
     padding-left: 30px;
-    padding-right: 10px;
+    padding-right: 5px;
 }
 
 main .main-utils-description .utils-about {
@@ -346,15 +346,27 @@ main .main-utils-links {
 
 main .main-utils-links a {
     display: flex;
-    height: 90px;
+    height: 50px;
+    margin-bottom: 40px;
+    border: 1px solid transparent;
+}
+
+main .main-utils-links a:focus {
+    border: 1px solid #36c;
 }
 
 main .main-utils-links .utils-link-text {
-    max-width: 65%;
+    max-width: 70%;
+    margin-left: 5px;
+}
+
+main .main-utils-links .utils-link-text span{
+    color: #36c;
 }
 
 main .main-utils-links .utils-link-text p{
     margin: 0;
+    color: #54595d;
 }
 
 main .main-utils-links .icon-commons {
