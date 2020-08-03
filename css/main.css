@@ -1,0 +1,506 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+header nav {
+    display: block;
+    text-align: center;
+}
+
+header .nav-title-container {
+    margin: 50px auto 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+
+header .nav-title-container p{
+    margin: 5px auto;
+}
+
+header .nav-language-container {
+    background-image: url('../img/wikipedia-mundo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200px 180px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+header .nav-language-container ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+header .nav-language-container li {
+    list-style: none;
+    padding-left: 0;
+    margin: 15px auto;
+    width: 160px;
+    height: auto;
+}
+
+header .nav-language-container a {
+    display: flex;
+    flex-direction: column;
+}
+
+header .nav-language-container a strong{
+    color: #4c78d2;
+    font-size: 16px;
+    margin: 3px auto;
+    font-weight: bold;
+}
+
+header .nav-language-container a small{
+    color: #54595d;
+    font-size: 13px;
+    margin: 3px auto;
+}
+
+header .nav-language-container .language1 {
+    margin-right: 8%;
+}
+
+header .nav-language-container .language2 {
+    margin-right: 14%;
+}
+
+header .nav-language-container .language3 {
+    margin-right: 18%;
+}
+
+header .nav-language-container .language4 {
+    margin-right: 14%;
+}
+
+header .nav-language-container .language5 {
+    margin-right: 8%;
+}
+
+header .nav-language-container .language6 {
+    margin-left: 8%;
+}
+
+header .nav-language-container .language7 {
+    margin-left: 14%;
+}
+
+header .nav-language-container .language8 {
+    margin-left: 18%;
+}
+
+header .nav-language-container .language9 {
+    margin-left: 14%;
+}
+
+header .nav-language-container .language10 {
+    margin-left: 8%;
+}
+
+header .nav-language-container a:hover strong{
+    text-decoration: underline;
+}
+
+main {
+    text-align: center;
+}
+
+main .main-search {
+    width: 450px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+main .main-search-container {
+    width: 400px;
+    min-height: 42px;
+    display: flex;
+    border: 1px solid #9194a1;
+}
+
+main .main-search form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-search-container input {
+    width: 100%;
+    border: none;
+    outline: none;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+main .main-search-container .main-search-accions {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+main .main-search-container select {
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+}
+
+main .main-search-container select:hover {
+    background-color: #f8f9fa;
+}
+
+main .main-search button {
+    min-height: 44px;
+    padding: 0 29px;
+    border: 1px solid #36c;
+    background-color: #36c;
+    background-image: url('../img/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 22px 22px;
+}
+
+main .main-search button:hover {
+    cursor: pointer;
+    background-color: #447ff5;
+    border-color: #447ff5;
+}
+
+main .main-button-lang {
+    width: 420px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+main .main-button-lang hr {
+    margin: 0 auto;
+    width: 45px;
+}
+
+main .main-button-lang button {
+    color: #36c;
+    font-size: 14px;
+    padding: 6px 12px;
+    background-color: #f8f9fa;
+    border: 1px solid #a2a9b1;
+    outline: none;
+    border-radius: 2px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-button-lang button:hover {
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+main .main-button-lang button:focus {
+    box-shadow: 0 1px 1px 0 #36c;
+    border-color: #36c;
+}
+
+main .main-button-lang strong {
+    padding: 0 8px;
+}
+
+main .main-button-lang .icon-lang {
+    background-image: url('https://img.icons8.com/cotton/2x/translation.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+}
+
+main .main-button-lang .icon-drop {
+    background-image: url('https://i.stack.imgur.com/N9dV0.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 12px;
+    height: 12px;
+}
+
+main .main-utils {
+    display: flex;
+    margin: 0 auto;
+    padding: 40px 13px 13px;
+    color: #54595d;
+    line-height: 1.5;
+}
+
+main .main-utils-description {
+    width: 35%;
+    text-align: left;
+    font-size: 13px;
+    padding-left: 30px;
+    padding-right: 10px;
+}
+
+main .main-utils-description .utils-about {
+    margin-bottom: 30px;
+    display: flex;
+    max-width: 350px;
+    padding: 8px;
+    padding-right: 50px;
+}
+
+main .main-utils-description .icon-wikimedia-container {
+    margin: 0 auto;
+}
+
+main .main-utils-description .utils-text {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+main .main-utils-description .utils-text .utils-about-text {
+    margin: 0 auto;
+}
+
+main .main-utils-description .icon-wikimedia-container i {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Wikimedia-logo-V.svg/256px-Wikimedia-logo-V.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 42px;
+    height: 42px;
+    display: inline-block;
+}
+
+
+main .main-utils-description .utils-text h4 {
+    margin: 0 auto;
+}
+
+main .main-utils-description .utils-download {
+    background-color: #f8f9fa;
+    display: flex;
+    max-width: 350px;
+    padding: 8px;
+}
+
+main .main-utils-description .icon-logo-wikipedia-container i {
+    background-image: url('https://www.wikipedia.org/static/favicon/wikipedia.ico');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border: 1px solid #000000;
+    box-shadow: 0 1px 2px 0 #20212447;
+    border-radius: 5px;
+}
+
+main .main-utils-description .utils-text h4 {
+    margin: 0 auto;
+}
+
+main .main-utils-description .utils-download .icon-download-android {
+    background-image: url('https://bitnovo.zendesk.com/hc/article_attachments/360001115178/Play_Store.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 124px;
+    height: 38px;
+    display: inline-block;
+}
+
+main .main-utils-description .utils-download .icon-download-ios {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Available_on_the_App_Store_%28black%29.png/640px-Available_on_the_App_Store_%28black%29.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 124px;
+    height: 38px;
+    display: inline-block;
+}
+
+main .main-utils-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+}
+
+main .main-utils-links a {
+    display: flex;
+    height: 90px;
+}
+
+main .main-utils-links .utils-link-text {
+    max-width: 65%;
+}
+
+main .main-utils-links .utils-link-text p{
+    margin: 0;
+}
+
+main .main-utils-links .icon-commons {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/4a/Commons-logo.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+main .main-utils-links .icon-wikiviajes {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Wikivoyage-Logo-v3-icon.svg/1024px-Wikivoyage-Logo-v3-icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+main .main-utils-links .icon-wikcionario {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Wiktfavicon_en.svg/1024px-Wiktfavicon_en.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+main .main-utils-links .icon-wikilibros {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Wikibooks-logo.svg/1200px-Wikibooks-logo.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+main .main-utils-links .icon-wikinoticias {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Wikinews-logo.svg/1200px-Wikinews-logo.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+main .main-utils-links .icon-wikidata {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Notification-icon-Wikidata-logo.svg/1200px-Notification-icon-Wikidata-logo.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+main .main-utils-links .icon-wikiversidad {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Wikiversity_logo_2017.svg/1200px-Wikiversity_logo_2017.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+main .main-utils-links .icon-wikiquote {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Notification-icon-Wikiquote.svg/1200px-Notification-icon-Wikiquote.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+main .main-utils-links .icon-mediawiki {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Notification-icon-MediaWiki-logo.svg/1200px-Notification-icon-MediaWiki-logo.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+main .main-utils-links .icon-wikisource {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Wikisource-logo.svg/1200px-Wikisource-logo.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+main .main-utils-links .icon-wikispecies {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikispecies-logo.svg/1200px-Wikispecies-logo.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+main .main-utils-links .icon-metawiki {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Meta-Wiki_Proposed_logo.svg/1200px-Meta-Wiki_Proposed_logo.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+
+footer ul {
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+footer small {
+    font-size: 13px;
+    color: #54595d;
+}
+
+footer ul .item-with-marker::after {
+    content: "\2022";
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+footer ul a {
+    color: #36c;
+}
+
+footer ul a:hover {
+    text-decoration: underline;
+}
